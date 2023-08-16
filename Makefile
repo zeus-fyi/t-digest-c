@@ -2,7 +2,7 @@
 # simple Makefile for T-Digest, relies on cmake to do the actual build.  
 # Use CMAKE_LIBRARY_OPTIONS,CMAKE_LIBRARY_SHARED_OPTIONS,CMAKE_LIBRARY_STATIC_OPTIONS or CMAKE_FULL_OPTIONS argument to this Makefile to pass options to cmake.
 #----------------------------------------------------------------------------------------------------
-VERSION := v1.0.0
+VERSION := 1.0.0
 CC?=gcc
 INFER?=./deps/infer
 INFER_DOCKER?=redisbench/infer-linux64:1.0.0
